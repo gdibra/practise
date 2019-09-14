@@ -2,7 +2,11 @@
 
 echo <<<END
 <body>
-    <div id='navbar'>asdasda</div>
+    <div id='navbar'>
+        <div id="navbar-container"> 
+            
+        </div>
+    </div>
     <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco la
      boris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volupta
@@ -53,6 +57,7 @@ rfectly simple and easy to distinguish. In a free hour, when our power of choice
 when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and ev
 ery pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it wil</p>
 </body>
+<script type='text/javascript' src='src/js/menu.js'></script>
 </html>
 END;
 

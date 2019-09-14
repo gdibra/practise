@@ -1,7 +1,7 @@
 @import url("reset.css");
 
 #navbar{
-    background-color: transparent;
+    background-color: red;
     margin-top: 0;
     padding-top: 0;
     position: fixed;
@@ -10,9 +10,18 @@
 }
 
 p{
-    font-size: 5em;
+    font-size: 2em;
+    color: navajowhite;
 }
 
 body{
-    background-color: blue;
+    background-image: url("../assets/images/index_background.jpeg") ;
+}
+
+#navbar-container{
+    height: 80px;
+    width: 80%;
+    background-color: blueviolet;
+    margin:  auto;
+    display: inline-block;
 }
