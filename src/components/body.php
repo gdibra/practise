@@ -4,7 +4,12 @@ echo <<<END
 <body>
     <div id='navbar'>
         <div id="navbar-container"> 
-            
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
         </div>
     </div>
     <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut

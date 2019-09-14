@@ -1,27 +1,48 @@
 @import url("reset.css");
+@import url("animations.css");
 
 #navbar{
+    opacity:  0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: red;
     margin-top: 0;
     padding-top: 0;
     position: fixed;
     width: 100%;
-    height: 100px;
+    height: 7em;
+}
+
+.fade-in{
+    animation: fadeIn 1s;
+}
+.fade-out{
+    animation: fadeOut 1s;
 }
 
 p{
+    padding-top: 8em;
     font-size: 2em;
-    color: navajowhite;
+    color: black;
 }
 
-body{
-    background-image: url("../assets/images/index_background.jpeg") ;
-}
 
 #navbar-container{
-    height: 80px;
-    width: 80%;
+    overflow: auto;
+    height: 4.5em;
+    width: 98%;
     background-color: blueviolet;
-    margin:  auto;
-    display: inline-block;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 0 0.8em;
+    float: right;
+}
+#navbar > a{
+    color: red;
 }
